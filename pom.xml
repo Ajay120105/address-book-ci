@@ -51,6 +51,19 @@
 
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>release-repo</id>
+            <url>https://maven.pkg.github.com/Ajay120105/address-book-ci.git/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>https://maven.pkg.github.com/Ajay120105/address-book-ci.git/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+
     <build>
         <plugins>
             <plugin>
